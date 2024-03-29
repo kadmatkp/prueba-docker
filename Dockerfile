@@ -16,6 +16,10 @@ ENV USER_RCLONE=adm	PASSWORD_RCLONE=pass
 
 RUN wget https://raw.githubusercontent.com/kadma/pruebas-docker/main/test.sh
 
+EXPOSE 80
+
+EXPOSE 5572
+
 RUN chmod +x test.sh
 
 ENTRYPOINT ./test.sh
