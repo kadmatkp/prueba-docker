@@ -14,7 +14,7 @@ RUN rm rclone-v1.66.0-linux-amd64.deb
 
 ENV USER_RCLONE=adm	PASSWORD_RCLONE=pass
 
-RUN wget https://raw.githubusercontent.com/kadma/pruebas-docker/main/test.sh
+RUN wget https://raw.githubusercontent.com/kadmatkp/prueba-docker/main/test.sh
 
 EXPOSE 80
 
